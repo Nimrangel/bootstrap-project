@@ -1,0 +1,65 @@
+/* General Changes */
+body{
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.navbar-nav{
+  text-transform: uppercase;
+  font-weight: bold;
+  display: flex;
+  margin-left: auto;
+  padding-right: 10px;
+  justify-content: space-around;
+}
+
+
+
+#home .catMsg{
+  margin-top: 60px;
+}
+
+#home2 .catMsg1{
+  margin-top: 150px;
+}
+
+#home {
+  background-color: #8FDDE7;
+}
+
+#header{
+  background-color: #B6E5D8;
+
+}
+
+#header .carousel-item img{
+  height: 700px;
+
+}
+
+/* #header .container-fluid{
+  margin-left: 650px;
+} */
+
+#header .container-fluid{
+  position:relative;
+  padding: 0;
+}
+
+
+
+
+
+.footer{
+  background: #FFC2C7;
+}
+
+.social a{
+  font-size: 30px;
+  justify-content: space-between;
+  margin: 10px;
+  color: black;
+}
